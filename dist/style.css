@@ -59,11 +59,26 @@ a:active {
 .grid__main {
   background-color: hsl(240, 99%, 33%);
 }
+@media (min-width: 43.75em) {
+  .grid__main {
+    background-color: hsl(120, 100%, 16%);
+  }
+}
+@media (min-width: 56.25em) {
+  .grid__main {
+    background-color: hsl(39, 100%, 35%);
+  }
+}
 .grid__sidebar {
   background-color: hsl(300, 100%, 30%);
 }
 @media (max-width: 56.24875em) {
   .grid__sidebar {
     text-align: center;
+  }
+}
+@media (max-width: 43.74875em) {
+  .grid__sidebar {
+    text-align: right;
   }
 }/*# sourceMappingURL=style.css.map */
